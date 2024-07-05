@@ -1,14 +1,14 @@
-.wrapper {
+.webWrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   font-family: var(--font-family);
   background-color: var(--color-bg-primary);
-  height: 300vh;
 }
+
 @keyframes rotate {
   from {
     transform: rotate(360deg);

@@ -7,7 +7,9 @@ function NavBar() {
     <div className={styles.wrapper}>
       <div className={styles.blur} />
       <ul className={styles.navList}>
-        <span className={styles.logo}>Venkat</span>
+        <a className={styles.logo} href="#">
+          V
+        </a>
         <a className={styles.navItem} href="#">
           Projects
         </a>

@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.webWrapper}>
       <NavBar />
       <Hero />
     </div>

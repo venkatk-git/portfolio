@@ -1,7 +1,55 @@
 .wrapper {
+  min-width: 100%;
+  background-image: url(https://raw.githubusercontent.com/venkatk-git/portfolio/main/public/assests/neon-bg.png);
+  background-position: top 60px center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: lighten;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.heading {
+  font-weight: var(--font-heavy);
+  margin-top: 200px;
+  font-size: 56px;
+  max-width: 860px;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--white);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.description {
+  text-align: center;
+  max-width: 524px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--color-gray-400);
+}
+
+.contactBtn {
+  background-color: var(--color-accent);
+  color: var(--white);
+  font-weight: 400;
+  border: none;
+  padding: 12px 24px;
+  letter-spacing: 1.1px;
+  border-radius: 4px;
+}
+
+.gradientMerger {
   width: 100%;
-  height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url();
+  background: rgb(10, 10, 10);
+  background: linear-gradient(
+    360deg,
+    rgba(10, 10, 10, 1) 25%,
+    rgba(10, 10, 10, 0) 100%
+  );
+  height: 108px;
 }

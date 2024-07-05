@@ -5,11 +5,13 @@
   margin-left: auto;
   padding: 4px 8px;
   width: 480px;
-  border: 2px solid var(--color-gray-200);
+  border: 1px solid var(--color-gray-200);
   border-radius: 1000px;
   padding: 12px 24px;
-  background-color: hsl(245, 92%, 4%);
-  backdrop-filter: blur(10px);
+  background-color: var(--bg-color-blur);
+  backdrop-filter: blur(var(--bg-blur));
+
+  z-index: 100;
 }
 
 .logo {
@@ -19,6 +21,7 @@
   font-size: 16px;
   /* Font Size */
 
+  text-decoration: none;
   font-weight: var(--font-bold);
 }
 
@@ -37,7 +40,7 @@
 
 .navItem {
   text-decoration: none;
-  color: var(--color-gray-700);
+  color: var(--color-gray-400);
   transition: var(--text-color-transition);
 }
 
