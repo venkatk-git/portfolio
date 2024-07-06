@@ -1,0 +1,99 @@
+.wrapper {
+  margin-top: 32px;
+  width: var(--max-w-container);
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: var(--text-color-transition);
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--color-gray-200);
+  padding-bottom: 12px;
+}
+
+.navList .dropDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: var(--color-gray-100);
+  font-size: 0.8rem;
+  margin: auto 4px;
+}
+
+.navList .tapName {
+  display: flex;
+  gap: 6px;
+  background-color: var(--color-gray-100);
+  border-radius: 8px;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+  padding: 8px 12px;
+  font-weight: var(--font-bold);
+}
+
+.navList .tapName:hover {
+  color: var(--color-text-highlight);
+  cursor: pointer;
+}
+
+.navList .navBtns {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.navList .navBtns li {
+  padding: 8px 12px;
+}
+
+.tabClose {
+  align-self: center;
+  border-radius: 50%;
+  color: var(--white);
+}
+
+.tabClose:hover {
+  background-color: var(--color-red-500);
+  cursor: pointer;
+}
+
+.navBtns li:hover {
+  margin-top: -1px;
+  background-color: var(--color-gray-100);
+  cursor: pointer;
+}
+
+.navBtns .close:hover {
+  margin-top: -1px;
+  background-color: var(--color-red-500);
+  cursor: pointer;
+}
+
+.filler {
+  flex-grow: 1;
+  border-bottom-left-radius: 12px;
+  margin-left: -12px;
+  margin-bottom: -12px;
+  background-color: var(--color-gray-200);
+}
+
+.content {
+  margin-top: -12px;
+  width: 100%;
+  height: 640px;
+  border-radius: 12px;
+  background-color: var(--color-gray-100);
+}

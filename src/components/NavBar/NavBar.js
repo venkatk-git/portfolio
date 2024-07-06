@@ -10,10 +10,10 @@ function NavBar() {
         <a className={styles.logo} href="#">
           V
         </a>
-        <a className={styles.navItem} href="#">
+        <a className={styles.navItem} href="#projects">
           Projects
         </a>
-        <a className={styles.navItem} href="#">
+        <a className={styles.navItem} href="#about">
           About
         </a>
         <a className={styles.navItem} href="#">

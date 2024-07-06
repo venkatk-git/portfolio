@@ -5,13 +5,17 @@ function Hero() {
   return (
     <>
       <div className={styles.wrapper}>
+        <div className={styles.noteWrapper}>
+          <span>Last Commit on 5th July 2024</span>
+          <span>🟢</span>
+        </div>
         <h1 className={styles.heading}>
           Transforming Concepts into Cutting-Edge, Responsive Web Solutions,
-          <span className={styles.italic}> Venkat</span>
+          <span className={`${styles.italic} ${styles.name}`}> Venkat</span>
         </h1>
 
         <p className={styles.description}>
-          And turn ideas into innovative, high-performance web solutions.
+          I turn ideas into innovative, high-performance web solutions.
         </p>
 
         <button className={styles.contactBtn}>Contact</button>
