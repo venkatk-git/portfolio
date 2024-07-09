@@ -16,7 +16,7 @@
   font-style: italic;
 }
 
-.left {
+.main {
   flex: 5;
   text-align: justify;
   font-size: 1.3rem;
@@ -24,7 +24,7 @@
   color: var(--color-gray-500);
 }
 
-.left h1 {
+.main h1 {
   line-height: 1;
   margin-bottom: 24px;
   font-size: 48px;

@@ -4,8 +4,8 @@ import styles from "./about.module.css";
 function About() {
   return (
     <div className={styles.wrapper} id="about">
-      <div className={styles.left}>
-        <h1>About me</h1>
+      <div className={styles.main}>
+        <img src=""></img>
         <p>
           Hello! I&apos;m <span className={styles.italic}>Venkat Kumar</span>,
           current III year student at Bannari Amman Institute of Technology. I
