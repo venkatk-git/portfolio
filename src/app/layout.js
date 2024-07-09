@@ -10,7 +10,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <head>
-        <link rel="icon" href="./favicon.ico" />
+        <link
+          rel="icon"
+          href="https://raw.githubusercontent.com/venkatk-git/portfolio/main/src/app/favicon.ico"
+        />
         <title>Venkat</title>
       </head>
       <body>{children}</body>
