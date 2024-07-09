@@ -1,16 +1,21 @@
 import React from "react";
 import styles from "./about.module.css";
 
+import Image from "next/image";
+
 function About() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="about">
       <h1 className={styles.sectionTitle}>About Me</h1>
       <div className={styles.gridWrapper} id="about">
         <div className={styles.main}>
-          <img
+          <Image
             src="https://raw.githubusercontent.com/venkatk-git/portfolio/main/public/assests/profile_placeholder.jpg"
             className={styles.profileImg}
-          ></img>
+            width={500}
+            height={140}
+            alt=""
+          ></Image>
           <p>
             Hello! I&apos;m <span className={styles.italic}>Venkat Kumar</span>,
             current III year student at Bannari Amman Institute of Technology. I

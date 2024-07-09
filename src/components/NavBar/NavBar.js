@@ -16,7 +16,7 @@ function NavBar() {
         <a className={styles.navItem} href="#about">
           About
         </a>
-        <a className={styles.navItem} href="#">
+        <a className={styles.navItem} href="#contact">
           Contact
         </a>
       </ul>

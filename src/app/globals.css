@@ -4,8 +4,11 @@
 }
 
 :root {
-  /* Width */
+  /* Widthsw */
   --max-w-container: 1280px;
+
+  /* Margins */
+  --wrapper-margin: 72px auto;
 
   /* Colors */
   --color-bg-primary: hsl(0, 0%, 4%);

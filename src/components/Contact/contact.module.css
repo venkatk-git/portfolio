@@ -1,0 +1,50 @@
+.wrapper {
+  /* !!!! Change to max-width !!!! */
+  width: var(--max-w-container);
+  /* !!!! Change to max-width !!!! */
+  background-color: var(--color-gray-100);
+  border-radius: 24px;
+  padding: 32px;
+  margin: var(--wrapper-margin);
+  border: 1px solid var(--color-gray-200);
+}
+
+.contactHeadWrapper h1 {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
+.contactHeadWrapper h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-left: 4.5px;
+  margin-bottom: 54px;
+}
+
+.contactStack {
+  display: flex;
+  gap: 32px;
+}
+
+.contactStack .contactForm {
+  flex: 4;
+  height: 620px;
+  background-color: var(--color-gray-200);
+  border-radius: 24px;
+}
+
+.contactStack .dummy {
+  flex: 1;
+  height: 620px;
+  background-color: var(--color-gray-200);
+  border-radius: 24px;
+}
+
+.contactStack .handles {
+  flex: 1;
+  height: 620px;
+  background-color: var(--color-gray-200);
+  border-radius: 24px;
+}

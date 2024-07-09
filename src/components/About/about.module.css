@@ -1,14 +1,15 @@
 .wrapper {
   --space: 32px;
-  margin: 72px auto;
+  margin: var(--wrapper-margin);
+  max-width: var(--max-w-container);
 }
 
 .sectionTitle {
   text-align: center;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: var(--font-bold);
   font-style: italic;
-  color: var(--color-text-highlight);
+  /* color: var(--color-text-highlight); */
 }
 
 .gridWrapper {
@@ -20,7 +21,6 @@
     "main objective objective";
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space);
-  max-width: var(--max-w-container);
   color: var(--color-gray-500);
 }
 

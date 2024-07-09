@@ -5,7 +5,7 @@ import Browser from "../Browser";
 import styles from "./projects.module.css";
 function Projects() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="projects">
       <Browser />
     </div>
   );
