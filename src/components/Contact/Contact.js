@@ -12,7 +12,6 @@ function Contact() {
       <div className={styles.contactStack}>
         <div className={styles.contactForm}></div>
         <div className={styles.handles}></div>
-        <div className={styles.dummy}></div>
       </div>
     </div>
   );

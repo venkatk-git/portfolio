@@ -5,6 +5,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { IoCloseOutline } from "react-icons/io5";
 import { VscChromeMaximize } from "react-icons/vsc";
 import { VscChromeMinimize } from "react-icons/vsc";
+import ProjectsLayout from "../ProjectsLayout";
 
 function Browser() {
   return (
@@ -32,7 +33,9 @@ function Browser() {
           </li>
         </ul>
       </nav>
-      <div className={styles.content}></div>
+      <div className={styles.content}>
+        <ProjectsLayout />
+      </div>
     </div>
   );
 }
