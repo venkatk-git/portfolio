@@ -59,17 +59,6 @@
   padding: 12px 12px;
 }
 
-.tabClose {
-  align-self: center;
-  border-radius: 50%;
-  color: var(--white);
-}
-
-.tabClose:hover {
-  background-color: var(--color-red-500);
-  cursor: pointer;
-}
-
 .navBtns li:hover {
   margin-top: -1px;
   background-color: var(--color-gray-100);

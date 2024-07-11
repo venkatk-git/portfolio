@@ -1,11 +1,14 @@
 import React from "react";
 
-import styles from "./browser.module.css";
+import ProjectsLayout from "../ProjectsLayout";
+import BrowserTabGroup from "../BrowserTabGroup";
+import BrowserTab from "../BrowserTab";
 import { FaAngleDown } from "react-icons/fa6";
 import { IoCloseOutline } from "react-icons/io5";
 import { VscChromeMaximize } from "react-icons/vsc";
 import { VscChromeMinimize } from "react-icons/vsc";
-import ProjectsLayout from "../ProjectsLayout";
+
+import styles from "./browser.module.css";
 
 function Browser() {
   return (
@@ -14,13 +17,9 @@ function Browser() {
         <div className={styles.dropDown}>
           <FaAngleDown />
         </div>
-        <ul className={styles.tapName}>
-          <li className={styles.tabTitle}>Featured Projects</li>
-          <li className={styles.tabClose}>
-            <IoCloseOutline />
-          </li>
-        </ul>
-        {/* <div className={styles.filler} /> */}
+        <BrowserTabGroup>
+          <BrowserTab>Featured Projects</BrowserTab>
+        </BrowserTabGroup>
         <ul className={styles.navBtns}>
           <li>
             <VscChromeMinimize />

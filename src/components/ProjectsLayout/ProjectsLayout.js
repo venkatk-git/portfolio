@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 
 import styles from "./projectslayout.module.css";
@@ -7,11 +6,8 @@ import ProjectCard from "../ProjectCard";
 
 function ProjectsLayout() {
   const [isActive, setIsActive] = React.useState(1);
-  const activeStyle = { flex: "4" };
-  const inActiveStyle = { flex: "1" };
 
   const cardToggleHandler = (index) => {
-    console.log("Toggled to card: ", isActive);
     setIsActive(index);
   };
 
