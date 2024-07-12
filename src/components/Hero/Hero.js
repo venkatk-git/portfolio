@@ -6,7 +6,7 @@ function Hero() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.noteWrapper}>
-          <span>Last Commit on 12th July 2024</span>
+          <span>Last Commit on 12th July 2025</span>
           <span>🟢</span>
         </div>
         <h1 className={styles.heading}>
