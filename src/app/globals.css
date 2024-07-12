@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "GeistVF";
   src: url(/public/fonts/GeistVF.woff2) format("woff2");

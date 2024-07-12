@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./hero.module.css";
+import { BackgroundBeams } from "../ui/background-beams";
 
 function Hero() {
   return (
     <>
       <div className={styles.wrapper}>
+        <div className={styles.beamsWrapper}>{/* <BackgroundBeams /> */}</div>
         <div className={styles.noteWrapper}>
           <span>Last Commit on 12th July 2025</span>
           <span>🟢</span>

@@ -12,6 +12,11 @@
   padding-top: 152px;
 }
 
+.beamsWrapper {
+  /* position: absolute; */
+  z-index: -100;
+}
+
 .noteWrapper {
   display: flex;
   align-items: baseline;
