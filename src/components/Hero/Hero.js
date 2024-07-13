@@ -8,7 +8,9 @@ function Hero() {
   return (
     <>
       <div className={styles.wrapper}>
-        {/* <BackgroundGrid /> */}
+        <div className={styles.backgroundGrid}>
+          <BackgroundGrid />
+        </div>
         <NoteTag>Last commit on {DAY} </NoteTag>
         <h1 className={styles.heading}>
           Transforming Concepts into Cutting-Edge, Responsive Web Solutions,
