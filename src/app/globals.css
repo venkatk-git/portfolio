@@ -54,6 +54,16 @@
   /* Background Blur */
   --bg-blur: 24px;
   --bg-color-blur: hsla(0, 0%, 5%, 0.8);
+
+  /* Breakpoints */
+  --mobile: 480px;
+  --tablet: 780px;
+  --laptop: 1280px;
+
+  /* Queries */
+  --mobileAndSmaller: max-width(var(--mobile));
+  --tabletAndSmaller: max-width(var(--tablet));
+  --laptopAndSmaller: max-width(var(--laptop));
 }
 
 /*
