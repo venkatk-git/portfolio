@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
   font-family: var(--font-family);
   background-color: var(--color-bg-primary);
 }

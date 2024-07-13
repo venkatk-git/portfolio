@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "./hero.module.css";
 import NoteTag from "../NoteTag";
+import BackgroundGrid from "@/components/BackgroundGrid";
 
 function Hero() {
   const DAY = new Date().toDateString();
   return (
     <>
       <div className={styles.wrapper}>
+        {/* <BackgroundGrid /> */}
         <NoteTag>Last commit on {DAY} </NoteTag>
         <h1 className={styles.heading}>
           Transforming Concepts into Cutting-Edge, Responsive Web Solutions,
