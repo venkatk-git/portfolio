@@ -9,12 +9,14 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.webWrapper}>
+    <div className={styles.wrapper}>
       <NavBar />
       <Hero />
-      <Projects />
-      <About />
-      <Contact />
+      <main className={styles.mainWrapper}>
+        <Projects />
+        <About />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

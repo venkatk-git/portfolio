@@ -252,3 +252,23 @@ q:after {
 #__next {
   isolation: isolate;
 }
+
+/* SCROLLBAR STYLES */
+::-webkit-scrollbar {
+  width: 0.55rem;
+  background-color: var(--color-gray-100);
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px var(--color-gray-200);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gray-200);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gray-300);
+}
