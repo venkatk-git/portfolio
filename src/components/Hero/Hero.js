@@ -1,14 +1,13 @@
 import React from "react";
 import styles from "./hero.module.css";
+import NoteTag from "../NoteTag";
 
 function Hero() {
+  const DAY = new Date().toDateString();
   return (
     <>
       <div className={styles.wrapper}>
-        <div className={styles.noteWrapper}>
-          <span>Last Commit on 5th July 2024</span>
-          <span>🟢</span>
-        </div>
+        <NoteTag>Last commit on {DAY} </NoteTag>
         <h1 className={styles.heading}>
           Transforming Concepts into Cutting-Edge, Responsive Web Solutions,
           <span className={`${styles.italic} ${styles.name}`}> Venkat</span>
