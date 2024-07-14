@@ -9,7 +9,6 @@
   font-size: 64px;
   font-weight: var(--font-bold);
   font-style: italic;
-  /* color: var(--color-text-highlight); */
 }
 
 .gridWrapper {
@@ -22,6 +21,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space);
   color: var(--color-gray-500);
+}
+
+.gridItems {
+  box-shadow: var(--bg-shadow);
 }
 
 .italic {

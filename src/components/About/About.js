@@ -8,7 +8,7 @@ function About() {
     <div className={styles.wrapper} id="about">
       <h1 className={styles.sectionTitle}>About Me</h1>
       <div className={styles.gridWrapper} id="about">
-        <div className={styles.main}>
+        <div className={`${styles.main} ${styles.gridItems}`}>
           <Image
             src="https://raw.githubusercontent.com/venkatk-git/portfolio/main/public/assests/profile_placeholder.jpg"
             className={styles.profileImg}
@@ -23,13 +23,13 @@ function About() {
             into interactive digital experiences.
           </p>
         </div>
-        <div className={styles.techStack}>
+        <div className={`${styles.techStack} ${styles.gridItems}`}>
           <h1>Stack</h1>
         </div>
-        <div className={styles.languages}>
+        <div className={`${styles.languages} ${styles.gridItems}`}>
           <h1>List of languages</h1>
         </div>
-        <div className={styles.objective}>
+        <div className={`${styles.objective} ${styles.gridItems}`}>
           <p>
             &quot;I aspire to contribute to impactful tech projects, making a
             positive difference with my web development expertise. Feel free to
