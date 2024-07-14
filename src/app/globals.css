@@ -14,7 +14,8 @@
   --color-bg-primary: hsl(0, 0%, 4%);
   --color-accent: hsl(255, 85%, 60%);
 
-  --color-text-highlight: hsl(253, 100%, 81%);
+  /* --color-text-highlight: hsl(253, 100%, 81%); */
+  --color-text-highlight: hsl(0, 0%, 60%);
 
   --color-bg-card: hsl(0, 0%, 5%);
 

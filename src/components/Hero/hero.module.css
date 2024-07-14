@@ -26,6 +26,17 @@
   opacity: 0.6;
 }
 
+.headContent {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+  margin-bottom: 256px;
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+}
+
 .heading {
   font-weight: var(--font-heavy);
   font-size: 56px;

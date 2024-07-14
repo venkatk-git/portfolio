@@ -1,0 +1,20 @@
+hero.module.css
+.headContent {
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+  margin-bottom: 256px;
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+}
+
+projects.module.css
+.wrapper {
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+  margin-top: -306px;
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+}
+
+browser.module.css
+.wrapper {
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+  z-index: 1;
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+}

@@ -7,6 +7,10 @@
   border-radius: 12px;
   overflow: hidden;
   transition: var(--text-color-transition);
+
+  /* !!!!!! Summa (Remove before final) !!!!!! */
+  z-index: 1;
+  /* !!!!!! Summa (Remove before final) !!!!!! */
 }
 
 .navList {

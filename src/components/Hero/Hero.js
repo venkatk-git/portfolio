@@ -12,16 +12,18 @@ function Hero() {
           <BackgroundGrid />
         </div>
         <NoteTag>Last commit on {DAY} </NoteTag>
-        <h1 className={styles.heading}>
-          Transforming Concepts into Cutting-Edge, Responsive Web Solutions,
-          <span className={`${styles.italic} ${styles.name}`}> Venkat</span>
-        </h1>
+        <main className={styles.headContent}>
+          <h1 className={styles.heading}>
+            Transforming Concepts into Cutting-Edge, Responsive Web Solutions,
+            <span className={`${styles.italic} ${styles.name}`}> Venkat</span>
+          </h1>
 
-        <p className={styles.description}>
-          I turn ideas into innovative, high-performance web solutions.
-        </p>
+          <p className={styles.description}>
+            I turn ideas into innovative, high-performance web solutions.
+          </p>
 
-        <button className={styles.contactBtn}>Contact</button>
+          <button className={styles.contactBtn}>Contact</button>
+        </main>
         <div className={styles.gradientMerger} />
       </div>
     </>
