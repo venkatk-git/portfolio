@@ -14,11 +14,16 @@
   height: 64px;
   background-color: var(--color-bg-primary);
   border: 0.1px solid var(--color-gray-200);
-  transition: all 0.8s;
   border-collapse: collapse;
+  transition: all 0.8s;
 }
 
 .girdItem:hover {
   background-color: var(--color-gray-300);
-  opacity: 0.2;
+  opacity: 0.4;
+}
+
+.flicker {
+  background-color: var(--color-gray-300);
+  opacity: 0.4;
 }
