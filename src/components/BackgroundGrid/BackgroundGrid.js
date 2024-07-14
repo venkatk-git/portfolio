@@ -40,4 +40,4 @@ function BackgroundGrid() {
   );
 }
 
-export default BackgroundGrid;
+export default React.memo(BackgroundGrid);

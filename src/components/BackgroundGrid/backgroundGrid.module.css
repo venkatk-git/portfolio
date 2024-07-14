@@ -15,7 +15,7 @@
   background-color: var(--color-bg-primary);
   border: 0.1px solid var(--color-gray-200);
   border-collapse: collapse;
-  transition: all 0.8s;
+  transition: all 0.8s ease-in-out;
 }
 
 .girdItem:hover {
@@ -25,5 +25,5 @@
 
 .flicker {
   background-color: var(--color-gray-300);
-  opacity: 0.4;
+  opacity: 0.3;
 }
