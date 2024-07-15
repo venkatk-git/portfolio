@@ -33,8 +33,9 @@
   --black: hsl(0, 0%, 4%);
 
   /* Grays */
-  --color-gray-100: #0d0d0d;
-  --color-gray-200: #141414;
+  --color-gray-100: hsl(0, 0%, 5%);
+  --color-gray-200: hsl(0, 0%, 8%);
+  --color-gray-250: hsl(0, 0%, 15%);
   --color-gray-300: hsl(0, 0%, 20%);
   --color-gray-400: hsl(0, 0%, 67%);
   --color-gray-500: hsl(0, 0%, 80%);
@@ -57,7 +58,7 @@
   --bg-color-blur: hsla(0, 0%, 5%, 0.8);
 
   /* Background Shadow */
-  --bg-shadow: hsla(0, 0%, 10%, 0.35) 0px 12px 35px 0px;
+  --bg-shadow: hsla(0, 0%, 10%, 0.582) 0px 12px 35px 0px;
 
   /* Breakpoints */
   --mobile: 480px;
