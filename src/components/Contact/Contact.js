@@ -10,7 +10,9 @@ function Contact() {
         <h3>Get in touch by sending a message!</h3>
       </div>
       <div className={styles.contactStack}>
-        <div className={styles.contactForm}></div>
+        <div className={styles.contactForm}>
+          
+        </div>
         <div className={styles.handles}></div>
       </div>
     </div>
