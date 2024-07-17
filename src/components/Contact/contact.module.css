@@ -33,6 +33,7 @@
   height: 620px;
   background-color: var(--color-gray-200);
   border-radius: 24px;
+  padding: 32px;
 }
 
 .contactStack .dummy {

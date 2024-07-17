@@ -58,7 +58,7 @@
   --bg-color-blur: hsla(0, 0%, 5%, 0.8);
 
   /* Background Shadow */
-  --bg-shadow: hsla(0, 0%, 10%, 0.582) 0px 12px 35px 0px;
+  --bg-shadow: hsla(0, 0%, 2%, 0.582) 0px 12px 50px 10px;
 
   /* Breakpoints */
   --mobile: 480px;
