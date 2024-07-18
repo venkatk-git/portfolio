@@ -15,8 +15,8 @@ function Contact() {
       <div className={styles.contactStack}>
         <div className={styles.handles}></div>
         <div className={styles.contactForm}>
-          <form>
-            <h3>Reach out.</h3>
+          <form className={styles.formWrapper}>
+            <h3 className={styles.formHeading}>Reach out.</h3>
             <div className={styles.whoWrapper}>
               <h3>Who are you?</h3>
               <div className={styles.whoBtnWrapper}>
@@ -32,31 +32,48 @@ function Contact() {
                   <input type="radio" id="individual" name="individual" />
                   <label for="individual">Individual</label>
                 </div>
-
-                <div className={styles.whoFieldWrapper}>
-                  <div className={styles.whoField}>
-                    <label for="name">Your name</label>
-                    <input type="text" id="name" name="name" />
-                  </div>
-                  <div className={styles.whoField}>
-                    <label for="email">Your email</label>
-                    <input type="email" id="email" name="email" />
-                  </div>
-                  <div className={styles.whoField}>
-                    <label for="phone">Your phone number</label>
-                    <input type="tel" id="phone" name="phone" />
-                  </div>
+              </div>
+              <div className={styles.whoFieldWrapper}>
+                <div className={styles.whoField}>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div className={styles.whoField}>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your email"
+                  />
+                </div>
+                <div className={styles.whoField}>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your phone number"
+                  />
                 </div>
               </div>
             </div>
             <div className={styles.whyWrapper}>
               <h3>Why are you reaching out?</h3>
               <div className={styles.whyFieldWrapper}>
-                <label for="why">
-                  What&#39;s your reason for reaching out?
-                </label>
-                <input type="text" id="why" name="why" />
+                <input
+                  type="text"
+                  id="why"
+                  name="why"
+                  placeholder="What&#39;s your reason?"
+                />
               </div>
+            </div>
+
+            <div className={styles.submitWrapper}>
+              <button className={styles.submitBtn}>Submit</button>
             </div>
           </form>
         </div>
