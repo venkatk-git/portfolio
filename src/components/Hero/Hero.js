@@ -11,10 +11,15 @@ function Hero() {
         <div className={styles.backgroundGrid}>
           <BackgroundGrid />
         </div>
+        <img
+          className={styles.backgroundGradiant}
+          src="https://framerusercontent.com/images/Re80Iloo5Ovqo1UWXILdzCh1GXI.svg"
+        />
         <NoteTag>Last commit on {DAY} </NoteTag>
         <main className={styles.headContent}>
           <h1 className={styles.heading}>
-            Transforming Concepts into Cutting-Edge, Responsive Web Solutions,
+            There is a strong belief in the power of creativity and
+            collaboration,
             <span className={`${styles.italic} ${styles.name}`}> Venkat</span>
           </h1>
 
