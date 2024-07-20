@@ -10,14 +10,16 @@
   align-items: center;
   padding-top: 152px;
   z-index: 1;
+  position: relative;
 }
 
 .backgroundGradiant {
+  pointer-events: none;
   position: absolute;
-  top: 0;
+  top: -150px;
   width: 100%;
   height: 100%;
-  opacity: 0.035;
+  opacity: 0.018;
 }
 
 .headContent {
