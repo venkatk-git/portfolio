@@ -1,16 +1,12 @@
 import React from "react";
 import styles from "./hero.module.css";
 import NoteTag from "../NoteTag";
-import BackgroundGrid from "@/components/BackgroundGrid";
 
 function Hero() {
   const DAY = new Date().toDateString();
   return (
     <>
       <div className={styles.wrapper}>
-        <div className={styles.backgroundGrid}>
-          <BackgroundGrid />
-        </div>
         <img
           className={styles.backgroundGradiant}
           src="https://framerusercontent.com/images/Re80Iloo5Ovqo1UWXILdzCh1GXI.svg"

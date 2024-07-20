@@ -9,21 +9,7 @@
   gap: 24px;
   align-items: center;
   padding-top: 152px;
-  position: relative;
-}
-
-.backgroundGrid {
-  width: calc(100% + 64px);
-  margin-left: -32px;
-  margin-right: -32px;
-  min-height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -100;
-  overflow: hidden;
-  opacity: 0.6;
+  z-index: 1;
 }
 
 .backgroundGradiant {

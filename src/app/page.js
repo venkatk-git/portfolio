@@ -4,20 +4,26 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import BackgroundGrid from "@/components/BackgroundGrid";
 
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.wrapper}>
-      <NavBar />
-      <Hero />
-      <main className={styles.mainWrapper}>
-        <Projects />
-        <About />
-        <Contact />
-      </main>
-      <Footer />
+      <div className={styles.pageWrapper}>
+        <div className={styles.backgroundGrid}>
+          <BackgroundGrid />
+        </div>
+        <NavBar />
+        <Hero />
+        <main className={styles.mainWrapper}>
+          <Projects />
+          <About />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
