@@ -28,6 +28,7 @@
 .contactStack {
   display: flex;
   gap: 32px;
+  line-height: 1.4;
 }
 
 .contactStack .contactForm {
@@ -50,6 +51,18 @@
   height: 620px;
   background-color: var(--color-gray-200);
   border-radius: 24px;
+}
+
+.contactForm {
+  flex: 3;
+}
+
+.handles {
+  flex: 1;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .formWrapper {
@@ -148,4 +161,21 @@
 .submitBtn:hover {
   background-color: var(--color-gray-100);
   cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .whoBtnWrapper {
+    flex-direction: column;
+    align-items: revert;
+    gap: 12px;
+    justify-content: center;
+  }
+}
+
+/* Tablet  */
+@media (max-width: 920px) {
+  .contactStack {
+    flex-direction: column;
+  }
 }
