@@ -64,11 +64,6 @@
   --mobile: 480px;
   --tablet: 780px;
   --laptop: 1280px;
-
-  /* Queries */
-  --mobileAndSmaller: max-width(var(--mobile));
-  --tabletAndSmaller: max-width(var(--tablet));
-  --laptopAndSmaller: max-width(var(--laptop));
 }
 
 /*
