@@ -23,7 +23,7 @@ export default function Home() {
           <Contact />
         </main>
         <div className={styles.gradientMerger} />
-        <Footer />
+        <Footer className={styles.footerWrapper} />
       </div>
     </div>
   );
