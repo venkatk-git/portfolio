@@ -61,14 +61,9 @@
   --bg-shadow: hsla(0, 0%, 2%, 0.582) 0px 12px 50px 10px;
 
   /* Breakpoints */
-  --mobile: 480px;
-  --tablet: 780px;
+  --mobile: 640px;
+  --tablet: 920px;
   --laptop: 1280px;
-
-  /* Queries */
-  --mobileAndSmaller: max-width(var(--mobile));
-  --tabletAndSmaller: max-width(var(--tablet));
-  --laptopAndSmaller: max-width(var(--laptop));
 }
 
 /*

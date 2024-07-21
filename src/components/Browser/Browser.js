@@ -17,9 +17,11 @@ function Browser() {
         <div className={styles.dropDown}>
           <FaAngleDown />
         </div>
-        <BrowserTabGroup>
-          <BrowserTab>Featured Projects</BrowserTab>
-        </BrowserTabGroup>
+        <div className={styles.tabWrapper}>
+          <BrowserTabGroup>
+            <BrowserTab>Featured Projects</BrowserTab>
+          </BrowserTabGroup>
+        </div>
         <ul className={styles.navBtns}>
           <li>
             <VscChromeMinimize />

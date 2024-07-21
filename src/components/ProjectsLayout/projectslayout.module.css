@@ -28,3 +28,15 @@
 .active {
   flex: 5;
 }
+
+/* Mobile */
+@media (max-width: 640px) {
+  .projectWrapper {
+    --space: 24px;
+    flex-direction: column;
+    justify-content: revert;
+    align-items: revert;
+    gap: var(--space);
+    padding: var(--space);
+  }
+}
