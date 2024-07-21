@@ -23,15 +23,15 @@ function Contact() {
                 <div className={styles.whoBtnWrapper}>
                   <div className={styles.whoBtn}>
                     <input type="radio" id="company" name="company" />
-                    <label for="company">Company</label>
+                    <label htmlFor="company">Company</label>
                   </div>
                   <div className={styles.whoBtn}>
                     <input type="radio" id="organization" name="organization" />
-                    <label for="organization">Organization</label>
+                    <label htmlFor="organization">Organization</label>
                   </div>
                   <div className={styles.whoBtn}>
                     <input type="radio" id="individual" name="individual" />
-                    <label for="individual">Individual</label>
+                    <label htmlFor="individual">Individual</label>
                   </div>
                 </div>
                 <div className={styles.whoFieldWrapper}>
