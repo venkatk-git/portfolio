@@ -7,7 +7,7 @@ function About() {
   return (
     <div className={styles.wrapper} id="about">
       <div className={styles.sectionHeading}>
-        <h1 className={styles.sectionTitle}>About M</h1>
+        <h1 className={styles.sectionTitle}>About me</h1>
         <h3 className={styles.sectionSubline}>
           Passionate Innovator and Collaborative Team Player
         </h3>
