@@ -13,7 +13,7 @@ function Contact() {
         </h3>
       </div>
       <div className={styles.contactStack}>
-        <div className={styles.handles}></div>
+        <div className={styles.handles}>Handles</div>
         <div className={styles.contactForm}>
           <form className={styles.formWrapper}>
             <h3 className={styles.formHeading}>Reach out.</h3>
