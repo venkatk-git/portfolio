@@ -23,6 +23,25 @@ const MobileNavList = ({ mobileNavState }) => {
   );
 };
 
+const DesktopNavList = () => {
+  return (
+    <ul className={styles.desktopNavList}>
+      <a className={styles.logo} href="#">
+        V
+      </a>
+      <a className={styles.navItem} href="#projects">
+        Projects
+      </a>
+      <a className={styles.navItem} href="#about">
+        About
+      </a>
+      <a className={styles.navItem} href="#contact">
+        Contact
+      </a>
+    </ul>
+  );
+};
+
 function NavBar() {
   const [mobileNavState, setMobileNavState] = React.useState(false);
 
@@ -45,20 +64,7 @@ function NavBar() {
         </button>
         <MobileNavList mobileNavState={mobileNavState} />
       </div>
-      <ul className={styles.desktopNavList}>
-        <a className={styles.logo} href="#">
-          V
-        </a>
-        <a className={styles.navItem} href="#projects">
-          Projects
-        </a>
-        <a className={styles.navItem} href="#about">
-          About
-        </a>
-        <a className={styles.navItem} href="#contact">
-          Contact
-        </a>
-      </ul>
+      <DesktopNavList />
     </div>
   );
 }
