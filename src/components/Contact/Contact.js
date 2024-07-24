@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./contact.module.css";
+import MovingBorder from "../MovingBorder";
 
 function Contact() {
   return (
@@ -73,7 +74,9 @@ function Contact() {
                 </div>
               </div>
               <div className={styles.submitWrapper}>
-                <button className={styles.submitBtn}>Submit</button>
+                <MovingBorder>
+                  <button className={styles.submitBtn}>Submit</button>
+                </MovingBorder>
               </div>
             </div>
           </form>
