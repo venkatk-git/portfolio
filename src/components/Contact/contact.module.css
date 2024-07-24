@@ -9,6 +9,39 @@
   margin-bottom: 0;
   border: 1px solid var(--color-gray-200);
   /* box-shadow: var(--bg-shadow); */
+  position: relative;
+}
+
+.wrapper:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    -45deg,
+    rgba(10, 10, 10, 1) 50%,
+    rgba(10, 10, 10, 1) 50%
+  );
+  transform: translate3d(0px, 0px, 0) scale(1.15);
+  filter: blur(100px);
+  opacity: 0.75;
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+.wrapper::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
 }
 
 .contactHeadWrapper h1 {

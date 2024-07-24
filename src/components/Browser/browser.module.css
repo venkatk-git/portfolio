@@ -27,6 +27,8 @@
   background-color: var(--color-gray-100);
   font-size: 0.8rem;
   margin: auto 8px;
+  border-radius: 8px;
+  height: 32px;
 }
 
 .navList .tapName {

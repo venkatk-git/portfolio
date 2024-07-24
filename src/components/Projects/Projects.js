@@ -6,7 +6,9 @@ import styles from "./projects.module.css";
 function Projects() {
   return (
     <div className={styles.wrapper} id="projects">
-      <Browser />
+      <div className={styles.sectionWrapper}>
+        <Browser />
+      </div>
     </div>
   );
 }
