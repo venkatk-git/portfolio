@@ -3,6 +3,12 @@
   src: url(/public/fonts/GeistVF.woff2) format("woff2");
 }
 
+@property --gradient-angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
 :root {
   /* Widthsw */
   --max-w-container: 1280px;

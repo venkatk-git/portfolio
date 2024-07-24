@@ -179,13 +179,15 @@
 .submitWrapper {
   width: inherit;
   display: flex;
+  border-radius: 4px;
+  margin-top: -18px;
 }
 
 .submitBtn {
-  background-color: transparent;
+  background-color: var(--color-gray-200);
   padding: 12px 32px;
+  border: 2px;
   border-radius: 4px;
-  border: 2px solid var(--color-gray-300);
   color: var(--color-gray-500);
   align-self: flex-end;
   margin-left: auto;
