@@ -59,16 +59,24 @@
 }
 
 .contactBtn {
-  background-color: var(--color-accent);
+  visibility: hidden;
+  background-color: var(--color-gray-200);
   color: var(--white);
-  font-weight: 400;
   border: none;
   padding: 12px 24px;
   letter-spacing: 1.1px;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-  /* !!!!!! Hidden !!!!!! */
-  visibility: hidden;
+.contactBtn a {
+  text-decoration: none;
+}
+
+.contactBtn:hover {
+  background-color: var(--color-gray-100);
+  cursor: pointer;
 }
 
 .gradientMerger {

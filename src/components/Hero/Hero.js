@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./hero.module.css";
 import NoteTag from "../NoteTag";
+import MovingBorder from "../MovingBorder";
 
 function Hero() {
   const DAY = new Date().toDateString();
@@ -22,8 +23,12 @@ function Hero() {
           <p className={styles.description}>
             I turn ideas into innovative, high-performance web solutions.
           </p>
-
-          <button className={styles.contactBtn}>Contact</button>
+          {/* 
+          <MovingBorder>
+            <button className={styles.contactBtn}>
+              <a href="#contact">Contact</a>
+            </button>
+          </MovingBorder> */}
         </main>
         <div className={styles.gradientMerger} />
       </div>
