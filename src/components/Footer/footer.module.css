@@ -2,6 +2,7 @@
   background-color: var(--color-gray-100);
   width: 100%;
   z-index: 1;
+  padding: 0 12px;
 }
 
 .footerWrapper {
@@ -38,4 +39,6 @@
 
 .footerText {
   color: var(--color-gray-400);
+  text-align: center;
+  line-height: 1.2;
 }

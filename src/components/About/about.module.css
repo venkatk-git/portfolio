@@ -147,6 +147,18 @@
   line-height: 1.4;
 }
 
+/* Tablet */
+@media (max-width: 920px) {
+  .gridWrapper {
+    display: grid;
+    grid-template-areas:
+      "main main techStack"
+      "main main languages"
+      "main main objective";
+    grid-template-columns: 2fr repeat(2, 1fr);
+  }
+}
+
 /* Mobile */
 @media (max-width: 640px) {
   .gridWrapper {

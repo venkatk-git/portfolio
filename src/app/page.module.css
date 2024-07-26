@@ -52,3 +52,10 @@
 .footerWrapper {
   margin: 0 -32px;
 }
+
+/* Mobile */
+@media (max-width: 640px) {
+  .mainWrapper {
+    padding: 0 12px;
+  }
+}
