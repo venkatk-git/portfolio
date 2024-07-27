@@ -5,7 +5,7 @@ import styles from "./projectslayout.module.css";
 import ProjectCard from "../ProjectCard";
 
 function ProjectsLayout() {
-  const [isActive, setIsActive] = React.useState(1);
+  const [isActive, setIsActive] = React.useState(0);
 
   const cardToggleHandler = (index) => {
     setIsActive(index);
