@@ -10,6 +10,7 @@
   width: 100%;
   height: 100%;
   background-image: url(https://cdn.prod.website-files.com/63dffdbf1693d14a2308d481/665668fdac8cc6dd79a22bdf_solana.png);
+  background-position: center;
   border-radius: inherit;
 }
 

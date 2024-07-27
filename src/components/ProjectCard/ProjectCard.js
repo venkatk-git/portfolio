@@ -21,20 +21,7 @@ function ProjectCard({ isActive, cardToggleHandler, ...deleagated }) {
         ease: "easeIn",
       }}
     >
-      <motion.div
-        initial={{ backgroundPosition: "center" }}
-        // animate={{
-        //   backgroundPosition: isActive ? "revert" : "center",
-        // }}
-        // transition={{
-        //   type: "spring",
-        //   duration: 0.15,
-        //   stiffness: 100,
-        //   damping: 20,
-        //   ease: "easeInOut",
-        // }}
-        className={styles.cardWrapper}
-      ></motion.div>
+      <div className={styles.cardWrapper}></div>
     </motion.div>
   );
 }
