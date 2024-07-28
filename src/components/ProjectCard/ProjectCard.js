@@ -3,7 +3,7 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
-import styles from "./projectCard.module.css";
+import styles from "./projectcard.module.css";
 function ProjectCard({ isActive, cardToggleHandler, ...deleagated }) {
   return (
     <motion.div
