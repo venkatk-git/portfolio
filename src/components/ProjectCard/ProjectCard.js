@@ -27,3 +27,4 @@ function ProjectCard({ isActive, cardToggleHandler, ...deleagated }) {
 }
 
 export default ProjectCard;
+  
