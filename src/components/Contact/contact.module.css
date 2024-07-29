@@ -66,7 +66,6 @@
 
 .contactStack .contactForm {
   flex: 4;
-  height: 620px;
   background-color: var(--color-gray-200);
   border-radius: 24px;
   padding: 32px;
@@ -79,15 +78,46 @@
   border-radius: 24px;
 }
 
+.contactStack .handlesWrapper {
+  background-color: var(--color-gray-200);
+  border-radius: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.contactList {
+  display: grid;
+  column-gap: 1rem;
+}
+
+.liImg {
+  font-size: 1.8rem;
+  width: fit-content;
+}
+
+.liName {
+}
+
+.liLink {
+  grid-column: 2;
+}
+
 .contactStack .handles {
   flex: 1;
-  height: 620px;
   background-color: var(--color-gray-200);
   border-radius: 24px;
 }
 
 .contactForm {
   flex: 3;
+}
+
+.handlesWrapper {
+  flex: 1;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .handles {

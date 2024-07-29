@@ -3,6 +3,53 @@ import React from "react";
 import styles from "./contact.module.css";
 import MovingBorder from "../MovingBorder";
 
+import { MdEmail } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
+import { MdCall } from "react-icons/md";
+import { FaGithub } from "react-icons/fa6";
+
+function ContactTemp() {
+  return (
+    <div className={styles.wrapper} id="contact">
+      <div className={styles.contactHeadWrapper}>
+        <h1 className={styles.sectionTitle}>Get In Touch</h1>
+      </div>
+      <div className={styles.contactStack}>
+        <div className={styles.handlesWrapper}>
+          <ul className={styles.contactList}>
+            <li className={styles.liImg}>
+              <MdEmail />
+            </li>
+            <li className={styles.liName}>Email</li>
+            <li className={styles.liLink}>venkatkumar.profiles@gmail.com</li>
+          </ul>
+          <ul className={styles.contactList}>
+            <li className={styles.liImg}>
+              <FaHome />
+            </li>
+            <li className={styles.liName}>Location</li>
+            <li className={styles.liLink}>Coimbatore</li>
+          </ul>
+          <ul className={styles.contactList}>
+            <li className={styles.liImg}>
+              <MdCall />
+            </li>
+            <li className={styles.liName}>Phone number</li>
+            <li className={styles.liLink}>+9123564598</li>
+          </ul>
+          <ul className={styles.contactList}>
+            <li className={styles.liImg}>
+              <FaGithub />
+            </li>
+            <li className={styles.liName}>Github</li>
+            <li className={styles.liLink}>https://github.com/venkatk-git</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function Contact() {
   return (
     <div className={styles.wrapper} id="contact">
@@ -86,4 +133,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactTemp;
