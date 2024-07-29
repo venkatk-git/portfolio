@@ -95,9 +95,6 @@
   width: fit-content;
 }
 
-.liName {
-}
-
 .liLink {
   grid-column: 2;
 }
@@ -242,5 +239,11 @@
 @media (max-width: 920px) {
   .contactStack {
     flex-direction: column;
+  }
+
+  .handlesWrapper {
+    flex-direction: column;
+    align-items: revert;
+    flex-wrap: wrap;
   }
 }
