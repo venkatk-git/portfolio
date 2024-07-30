@@ -160,6 +160,11 @@
 .whoBtn {
   display: flex;
   gap: 8px;
+  align-items: baseline;
+}
+
+.whoBtn label {
+  line-height: 1;
 }
 
 .whoBtn input {
@@ -223,6 +228,10 @@
 .submitBtn:hover {
   background-color: var(--color-gray-100);
   cursor: pointer;
+}
+
+.whoFieldInput {
+  background-color: white;
 }
 
 /* Mobile */

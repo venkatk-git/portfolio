@@ -3,7 +3,7 @@
   src: url(/public/fonts/GeistVF.woff2) format("woff2");
 }
 
-@property --gradient-angle{
+@property --gradient-angle {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
@@ -259,22 +259,14 @@ q:after {
   isolation: isolate;
 }
 
-/* SCROLLBAR STYLES */
-::-webkit-scrollbar {
-  width: 0.55rem;
-  background-color: var(--color-gray-100);
-}
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+{
+  background-color: transparent;
+} */
 
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px var(--color-gray-200);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-gray-200);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-gray-300);
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s !important;
 }
