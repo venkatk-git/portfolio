@@ -8,6 +8,7 @@ import { MdEmail } from "react-icons/md";
 import { FaHome } from "react-icons/fa";
 import { MdCall } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
+import axios from "axios";
 
 function ContactTemp() {
   return (
@@ -64,12 +65,23 @@ function Contact() {
     e.preventDefault();
 
     const newData = {
-      who: e.currentTarget.who.value,
-      name: e.currentTarget.name.value,
-      email: e.currentTarget.email.value,
-      phone: e.currentTarget.phone.value,
-      why: e.currentTarget.why.value,
+      Who: e.currentTarget.who.value,
+      Name: e.currentTarget.name.value,
+      Email: e.currentTarget.email.value,
+      Phone: e.currentTarget.phone.value,
+      Reason: e.currentTarget.why.value,
     };
+
+    const data = JSON.stringify(newData);
+
+    axios
+      .post(
+        "https://script.google.com/macros/s/AKfycbw1jKuTp4rShUSqmet06oLKVb-Y_zXufdoxoXTaUe--blFFKHutaKlgdZCWjxPwm73Seg/exec",
+        data
+      )
+      .then(() => console.log("Submited"))
+      .catch((e) => console.log(e));
+
     setFormData(newData);
   };
 
@@ -170,4 +182,4 @@ function Contact() {
   );
 }
 
-export default ContactTemp;
+export default Contact;
