@@ -9,6 +9,8 @@ import { FaHome } from "react-icons/fa";
 import { MdCall } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
 import axios from "axios";
+import { SHEET_ENDPOINT } from "@/utils";
+import { POST } from "@/helpers/axiosPost";
 
 function ContactTemp() {
   return (
@@ -61,9 +63,8 @@ function Contact() {
     why: "",
   });
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-
     const newData = {
       Who: e.currentTarget.who.value,
       Name: e.currentTarget.name.value,
@@ -72,15 +73,11 @@ function Contact() {
       Reason: e.currentTarget.why.value,
     };
 
-    const data = JSON.stringify(newData);
+    const res = await POST(SHEET_ENDPOINT, newData);
 
-    axios
-      .post(
-        "https://script.google.com/macros/s/AKfycbw1jKuTp4rShUSqmet06oLKVb-Y_zXufdoxoXTaUe--blFFKHutaKlgdZCWjxPwm73Seg/exec",
-        data
-      )
-      .then(() => console.log("Submited"))
-      .catch((e) => console.log(e));
+    if (res.status) {
+      console.log("Successfully Submitted");
+    }
 
     setFormData(newData);
   };
