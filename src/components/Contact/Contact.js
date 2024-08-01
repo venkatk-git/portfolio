@@ -58,31 +58,42 @@ function ContactTemp() {
 }
 
 function Contact() {
+  const [duringSubmit, setDuringSubmit] = React.useState(false);
+
   const [formData, setFormData] = React.useState({
-    who: "",
-    name: "",
-    email: "",
-    phone: "",
-    why: "",
+    Who: "",
+    Name: "",
+    Email: "",
+    Phone: "",
+    Reason: "",
   });
 
   const onSubmit = async (e) => {
     e.preventDefault();
+
     const newData = {
-      Who: e.currentTarget.who.value,
-      Name: e.currentTarget.name.value,
-      Email: e.currentTarget.email.value,
-      Phone: e.currentTarget.phone.value,
-      Reason: e.currentTarget.why.value,
+      Who: formData.Who,
+      Name: formData.Name,
+      Email: formData.Email,
+      Phone: formData.Phone,
+      Reason: formData.Reason,
     };
 
+    setDuringSubmit(!duringSubmit);
     const res = await POST(SHEET_ENDPOINT, newData);
 
     if (res.status) {
       console.log("Successfully Submitted");
+      setDuringSubmit(false);
     }
 
-    setFormData(newData);
+    setFormData({
+      Who: "",
+      Name: "",
+      Email: "",
+      Phone: "",
+      Reason: "",
+    });
   };
 
   return (
@@ -97,6 +108,7 @@ function Contact() {
       <div className={styles.contactStack}>
         <div className={styles.handles}>Handles</div>
         <div className={styles.contactForm}>
+          {duringSubmit && <div className={styles.loading}>Submitting...</div>}
           <form className={styles.formWrapper} onSubmit={onSubmit}>
             <h3 className={styles.formHeading}>Reach out.</h3>
             <div className={styles.formFieldWrapper}>
@@ -109,6 +121,13 @@ function Contact() {
                       id="company"
                       name="who"
                       value="company"
+                      checked={formData.Who === "company"}
+                      onChange={(e) =>
+                        setFormData((prev) => ({
+                          ...prev,
+                          Who: e.target.value,
+                        }))
+                      }
                     />
                     <label htmlFor="company">Company</label>
                   </div>
@@ -118,6 +137,13 @@ function Contact() {
                       id="organization"
                       name="who"
                       value="organization"
+                      checked={formData.Who === "organization"}
+                      onChange={(e) =>
+                        setFormData((prev) => ({
+                          ...prev,
+                          Who: e.target.value,
+                        }))
+                      }
                     />
                     <label htmlFor="organization">Organization</label>
                   </div>
@@ -127,6 +153,13 @@ function Contact() {
                       id="individual"
                       name="who"
                       value="individual"
+                      checked={formData.Who === "individual"}
+                      onChange={(e) =>
+                        setFormData((prev) => ({
+                          ...prev,
+                          Who: e.target.value,
+                        }))
+                      }
                     />
                     <label htmlFor="individual">Individual</label>
                   </div>
@@ -138,6 +171,13 @@ function Contact() {
                       id="name"
                       name="name"
                       placeholder="Your name"
+                      value={formData.Name}
+                      onChange={(e) =>
+                        setFormData((prev) => ({
+                          ...prev,
+                          Name: e.target.value,
+                        }))
+                      }
                     />
                   </div>
                   <div className={styles.whoField}>
@@ -146,6 +186,13 @@ function Contact() {
                       id="email"
                       name="email"
                       placeholder="Your email"
+                      value={formData.Email}
+                      onChange={(e) =>
+                        setFormData((prev) => ({
+                          ...prev,
+                          Email: e.target.value,
+                        }))
+                      }
                     />
                   </div>
                   <div className={styles.whoField}>
@@ -154,6 +201,13 @@ function Contact() {
                       id="phone"
                       name="phone"
                       placeholder="Your phone number"
+                      value={formData.Phone}
+                      onChange={(e) =>
+                        setFormData((prev) => ({
+                          ...prev,
+                          Phone: e.target.value,
+                        }))
+                      }
                     />
                   </div>
                 </div>
@@ -166,6 +220,13 @@ function Contact() {
                     id="why"
                     name="why"
                     placeholder="What&#39;s your reason?"
+                    value={formData.Reason}
+                    onChange={(e) =>
+                      setFormData((prev) => ({
+                        ...prev,
+                        Reason: e.target.value,
+                      }))
+                    }
                   />
                 </div>
               </div>

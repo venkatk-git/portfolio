@@ -36,13 +36,17 @@ function About() {
           ></Image>
           <p>
             Hello! I&apos;m <span className={styles.italic}>Venkat Kumar</span>,
-            current III year student at Bannari Amman Institute of Technology. I
-            create websites that solve real-world problems, transforming ideas
-            into interactive digital experiences.
+            current III year student at Bannari Amman Institute of Technology,
+            driven by an insatiable curiosity and a passion for learning. I
+            thrive on pushing boundaries, constantly exploring new horizons to
+            enhance my knowledge and skills. Whether it&apos;s diving into the
+            depths of emerging technologies or solving real-world problems,
+            I&apos;m always eager to take on new challenges and grow.
           </p>
         </div>
         <div className={`${styles.techStack} ${styles.gridItems}`}>
           <div className={`${styles.techStackWrapper} ${styles.scroller}`}>
+            {/* <h3>My Stack</h3> */}
             <div className={styles.scroller__inner}>
               <Icon
                 icon="skill-icons:npm-light"
