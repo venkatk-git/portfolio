@@ -1,14 +1,17 @@
 "use client";
 import React from "react";
 
+// Styles
 import styles from "./contact.module.css";
-import MovingBorder from "../MovingBorder";
 
+// Components
+import MovingBorder from "../MovingBorder";
 import { MdEmail } from "react-icons/md";
 import { FaHome } from "react-icons/fa";
 import { MdCall } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
-import axios from "axios";
+
+// Helpers & Utils
 import { SHEET_ENDPOINT } from "@/utils";
 import { POST } from "@/helpers/axiosPost";
 
