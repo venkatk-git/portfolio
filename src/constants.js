@@ -7,3 +7,13 @@ export const QUERIES = {
   tabletAndSmaller: "max-width(var(--tablet))",
   laptopAndSmaller: "max-width(var(--laptop))",
 };
+
+//Social Links
+export const LINKS = {
+  github: "https://github.com/venkatk-git",
+  linkedIn: "#",
+  instagram: "#",
+  x: "#",
+  gmail: "#",
+  leetcode: "#",
+};

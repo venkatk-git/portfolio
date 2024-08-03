@@ -1,10 +1,16 @@
 import React from "react";
 
+//Stylesheet
+import styles from "./footer.module.css";
+
+//Components
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 
-import styles from "./footer.module.css";
+//Helpers & Constants
+import { LINKS } from "@/constants";
+
 function Footer() {
   return (
     <footer className={styles.wrapper}>
@@ -16,18 +22,18 @@ function Footer() {
         </nav>
         <h1>venkat</h1>
         <div className={styles.handles}>
-          <a href="#">
+          <a href={LINKS.github}>
             <FaGithub />
           </a>
-          <a href="#">
+          <a href={LINKS.instagram}>
             <FaInstagram />
           </a>
-          <a href="#">
+          <a href={LINKS.x}>
             <FaXTwitter />
           </a>
         </div>
         <p className={styles.footerText}>
-          All rights reserved. © Copyright Venkat Kumar{" "}
+          All rights reserved. © Copyright Venkat Kumar
           {new Date().getFullYear()}
         </p>
       </div>
