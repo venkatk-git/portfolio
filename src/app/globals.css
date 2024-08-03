@@ -259,12 +259,25 @@ q:after {
   isolation: isolate;
 }
 
-/* input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-{
-  background-color: transparent;
-} */
+/* SCROLLBAR STYLES */
+::-webkit-scrollbar {
+  width: 0.55rem;
+  background-color: var(--color-gray-100);
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px var(--color-gray-200);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gray-200);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gray-300);
+}
 
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
