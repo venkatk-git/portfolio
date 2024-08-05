@@ -34,6 +34,7 @@
     "main techStack techStack languages"
     "main objective objective objective";
   grid-template-columns: 2fr repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr;
   gap: var(--space);
   color: var(--color-gray-500);
 }
@@ -168,6 +169,7 @@
       "main main languages"
       "main main objective";
     grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 2fr;
   }
 }
 

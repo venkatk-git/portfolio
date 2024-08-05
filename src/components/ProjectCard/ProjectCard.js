@@ -4,12 +4,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import styles from "./projectcard.module.css";
-function ProjectCard({ isActive, cardToggleHandler, ...deleagated }) {
+function ProjectCard({ isActive, cardToggleHandler, ...props }) {
   return (
     <motion.div
       className={`${styles.wrapper} ${isActive ? styles.active : ""}`}
       onClick={cardToggleHandler}
-      initial={{ flex: 1 }}
+      initial={false}
       animate={{
         flex: isActive ? 4 : 1,
       }}
@@ -21,10 +21,9 @@ function ProjectCard({ isActive, cardToggleHandler, ...deleagated }) {
         ease: "easeIn",
       }}
     >
-      <div className={styles.cardWrapper}></div>
+      <div className={styles.cardWrapper} {...props}></div>
     </motion.div>
   );
 }
 
 export default ProjectCard;
-  
