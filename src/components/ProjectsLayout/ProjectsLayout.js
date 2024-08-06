@@ -11,14 +11,31 @@ function ProjectsLayout() {
     setIsActive(index);
   };
 
+  const PROJECTS = [
+    {
+      title: "Campus Management System",
+      description:
+        "This Campus Management System is a full-stack application developed to address various challenges faced by the college's Campus Management Team. The team needed an efficient solution for maintaining logs, assigning tasks, tracking work status, and managing the workforce, including workers and supervisors.",
+    },
+    {
+      title: "",
+      description: "",
+    },
+    {
+      title: "",
+      description: "",
+    },
+  ];
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.projectWrapper}>
-        {[...Array(3)].map((element, index) => (
+        {PROJECTS.map((project, index) => (
           <ProjectCard
             key={index}
             isActive={isActive === index}
             cardToggleHandler={() => cardToggleHandler(index)}
+            project={project}
           />
         ))}
       </div>

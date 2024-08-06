@@ -3,8 +3,12 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
+//Stylesheet
 import styles from "./projectcard.module.css";
-function ProjectCard({ isActive, cardToggleHandler, ...props }) {
+
+function ProjectCard({ project, isActive, cardToggleHandler, ...props }) {
+  const { title, description } = project;
+
   return (
     <motion.div
       className={`${styles.wrapper} ${isActive ? styles.active : ""}`}
