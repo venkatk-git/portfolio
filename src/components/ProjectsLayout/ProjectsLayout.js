@@ -3,6 +3,9 @@ import React from "react";
 
 import styles from "./projectslayout.module.css";
 import ProjectCard from "../ProjectCard";
+import ProjectDataCard from "../ProjectDataCard";
+
+import { PROJECTS } from "../../constants.js";
 
 function ProjectsLayout() {
   const [isActive, setIsActive] = React.useState(0);
@@ -14,12 +17,8 @@ function ProjectsLayout() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.projectWrapper}>
-        {[...Array(3)].map((element, index) => (
-          <ProjectCard
-            key={index}
-            isActive={isActive === index}
-            cardToggleHandler={() => cardToggleHandler(index)}
-          />
+        {PROJECTS.map((project, index) => (
+          <ProjectDataCard key={index} project={project} />
         ))}
       </div>
     </div>

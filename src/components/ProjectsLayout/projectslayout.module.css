@@ -5,13 +5,15 @@
 }
 
 .projectWrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   align-items: center;
   justify-content: center;
   width: inherit;
   height: inherit;
   padding: 32px;
   gap: 32px;
+  overflow-y: scroll;
 }
 
 .project {
