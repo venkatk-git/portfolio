@@ -40,5 +40,6 @@
     align-items: revert;
     gap: var(--space);
     padding: var(--space);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
