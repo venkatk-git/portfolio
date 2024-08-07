@@ -36,11 +36,16 @@ function ProjectsLayout() {
             isActive={isActive === index}
             cardToggleHandler={() => cardToggleHandler(index)}
             project={project}
+            stack={<Stack />}
           />
         ))}
       </div>
     </div>
   );
+}
+
+function Stack() {
+  return <div></div>;
 }
 
 export default ProjectsLayout;

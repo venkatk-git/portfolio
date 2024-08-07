@@ -7,13 +7,14 @@ import Footer from "@/components/Footer";
 import BackgroundGrid from "@/components/BackgroundGrid";
 
 import styles from "./page.module.css";
+import { GRID_SIZE } from "@/constants";
 
 export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.pageWrapper}>
         <div className={styles.backgroundGrid}>
-          <BackgroundGrid />
+          <BackgroundGrid size={GRID_SIZE} />
         </div>
         <NavBar />
         <Hero />

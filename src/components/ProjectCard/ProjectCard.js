@@ -2,11 +2,21 @@
 import React from "react";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 //Stylesheet
 import styles from "./projectcard.module.css";
 
-function ProjectCard({ project, isActive, cardToggleHandler, ...props }) {
+import { Icon } from "@iconify/react";
+import BackgroundGrid from "../BackgroundGrid";
+
+function ProjectCard({
+  project,
+  stack,
+  isActive,
+  cardToggleHandler,
+  ...props
+}) {
   const { title, description } = project;
 
   return (
@@ -25,7 +35,7 @@ function ProjectCard({ project, isActive, cardToggleHandler, ...props }) {
         ease: "easeIn",
       }}
     >
-      <div className={styles.cardWrapper} {...props}></div>
+      <BackgroundGrid size={350} className={styles.grid} />
     </motion.div>
   );
 }
