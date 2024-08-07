@@ -26,7 +26,7 @@ export const PROJECTS = [
     description:
       "This Campus Management System is a full-stack application developed to address various challenges faced by the college's Campus Management Team. The team needed an efficient solution for maintaining logs, assigning tasks, tracking work status, and managing the workforce, including workers and supervisors.",
     link: "https://github.com/venkatk-git/Campus-Management-Portal.git",
-    img: "https://raw.githubusercontent.com/venkatk-git/portfolio/projects-card-02/src/docs/project_01_01.png",
+    img: "https://github.com/venkatk-git/portfolio/blob/dev/src/docs/campus_management_system.png?raw=true",
     stack: (
       <>
         <Icon icon="skill-icons:mongodb" />
@@ -39,8 +39,8 @@ export const PROJECTS = [
     title: "Campus Management System",
     description:
       "This Campus Management System is a full-stack application developed to address various challenges faced by the college's Campus Management Team. The team needed an efficient solution for maintaining logs, assigning tasks, tracking work status, and managing the workforce, including workers and supervisors.",
-    link: "#",
-    img: "https://raw.githubusercontent.com/venkatk-git/portfolio/projects-card-02/src/docs/project_01_01.png",
+    link: "https://github.com/venkatk-git/Campus-Management-Portal.git",
+    img: "https://github.com/venkatk-git/portfolio/blob/dev/src/docs/campus_management_system.png?raw=true",
     stack: (
       <>
         <Icon icon="skill-icons:mongodb" />
@@ -53,8 +53,8 @@ export const PROJECTS = [
     title: "Campus Management System",
     description:
       "This Campus Management System is a full-stack application developed to address various challenges faced by the college's Campus Management Team. The team needed an efficient solution for maintaining logs, assigning tasks, tracking work status, and managing the workforce, including workers and supervisors.",
-    link: "#",
-    img: "https://raw.githubusercontent.com/venkatk-git/portfolio/projects-card-02/src/docs/project_01_01.png",
+    link: "https://github.com/venkatk-git/Campus-Management-Portal.git",
+    img: "https://github.com/venkatk-git/portfolio/blob/dev/src/docs/campus_management_system.png?raw=true",
     stack: (
       <>
         <Icon icon="skill-icons:mongodb" />
