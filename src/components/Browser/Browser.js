@@ -1,5 +1,9 @@
 import React from "react";
 
+//Stylesheet
+import styles from "./browser.module.css";
+
+//Components
 import ProjectsLayout from "../ProjectsLayout";
 import BrowserTabGroup from "../BrowserTabGroup";
 import BrowserTab from "../BrowserTab";
@@ -7,8 +11,6 @@ import { FaAngleDown } from "react-icons/fa6";
 import { IoCloseOutline } from "react-icons/io5";
 import { VscChromeMaximize } from "react-icons/vsc";
 import { VscChromeMinimize } from "react-icons/vsc";
-
-import styles from "./browser.module.css";
 
 function Browser() {
   return (

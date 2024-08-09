@@ -122,8 +122,17 @@
   flex: 1;
   padding: 32px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.handles .contactMan {
+  font-size: 5rem;
+  color: var(--white);
+}
+
+.handles .handlesDetailsDesktop {
 }
 
 .formWrapper {
