@@ -41,4 +41,12 @@ function Footer() {
   );
 }
 
-export default Footer;
+function newFooter() {
+  return (
+    <footer className={styles.footer}>
+      <div className={styles.venkat}>venkat</div>
+    </footer>
+  );
+}
+
+export default newFooter;

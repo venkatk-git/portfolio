@@ -18,12 +18,18 @@ export default function Home() {
         <NavBar />
         <Hero />
         <main className={styles.mainWrapper}>
-          <Projects />
-          <About />
-          <Contact />
+          <section id="projects">
+            <Projects />
+          </section>
+          <section id="about">
+            <About />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
+          {/* <div className={styles.gradientMerger} /> */}
+          <Footer />
         </main>
-        <div className={styles.gradientMerger} />
-        <Footer className={styles.footerWrapper} />
       </div>
     </div>
   );

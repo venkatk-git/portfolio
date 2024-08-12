@@ -49,10 +49,6 @@
   opacity: 0.6;
 }
 
-.footerWrapper {
-  margin: 0 -32px;
-}
-
 /* Mobile */
 @media (max-width: 640px) {
   .mainWrapper {

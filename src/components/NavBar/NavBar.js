@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 
-import { IoMdClose } from "react-icons/io";
-
 import styles from "./navBar.module.css";
-import MovingBorder from "../MovingBorder";
 
 const MobileNavList = ({ mobileNavState }) => {
   return (

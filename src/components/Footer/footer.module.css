@@ -42,3 +42,16 @@
   text-align: center;
   line-height: 1.2;
 }
+
+.footer {
+  margin-top: 92px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.venkat {
+  font-size: 364px;
+  font-weight: var(--font-heavy);
+  margin-bottom: -96px;
+  color: var(--color-gray-500);
+}
