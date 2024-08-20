@@ -49,4 +49,4 @@ function newFooter() {
   );
 }
 
-export default newFooter;
+export default Footer;

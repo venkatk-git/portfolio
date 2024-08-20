@@ -27,9 +27,9 @@ export default function Home() {
           <section id="contact">
             <Contact />
           </section>
-          {/* <div className={styles.gradientMerger} /> */}
-          <Footer />
+          <div className={styles.gradientMerger} />
         </main>
+        <Footer />
       </div>
     </div>
   );
