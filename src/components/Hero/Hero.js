@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./hero.module.css";
 import NoteTag from "../NoteTag";
-import MovingBorder from "../MovingBorder";
 
 function Hero() {
     const DAY = new Date().toDateString();
@@ -24,8 +23,9 @@ function Hero() {
                     </h1>
 
                     <p className={styles.description}>
-                        I turn ideas into innovative, high-performance software
-                        solutions.
+                        I turn ideas into innovative,
+                        <br />
+                        high-performance <em>software solutions.</em>
                     </p>
                     {/* 
           <MovingBorder>
