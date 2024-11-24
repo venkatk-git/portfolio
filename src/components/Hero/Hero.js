@@ -25,7 +25,7 @@ function Hero() {
                     <p className={styles.description}>
                         I turn ideas into innovative,
                         <br />
-                        high-performance <em>software solutions.</em>
+                        high-performance <i>software solutions.</i>
                     </p>
                     {/* 
           <MovingBorder>
