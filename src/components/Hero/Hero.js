@@ -14,18 +14,17 @@ function Hero() {
                 <NoteTag>Last commit on {DAY} </NoteTag>
                 <main className={styles.headContent}>
                     <h1 className={styles.heading}>
-                        There is a strong belief in the power of creativity and
-                        collaboration,
+                        Full Stack Developer Building Functional, User-Friendly
+                        Web Projects
                         <span className={`${styles.italic} ${styles.name}`}>
                             {" "}
-                            Venkat
+                            - Venkat
                         </span>
                     </h1>
 
                     <p className={styles.description}>
-                        I turn ideas into innovative,
-                        <br />
-                        high-performance <i>software solutions.</i>
+                        Crafting Seamless Digital Experiences with Code &
+                        Creativity
                     </p>
                     {/* 
           <MovingBorder>

@@ -35,16 +35,13 @@ function About() {
                         alt=""
                     ></Image>
                     <p>
-                        Hello! I&apos;m{" "}
-                        <span className={styles.italic}>Venkat Kumar</span>,
-                        current III year student at Bannari Amman Institute of
-                        Technology, driven by an insatiable curiosity and a
-                        passion for learning. I thrive on pushing boundaries,
-                        constantly exploring new horizons to enhance my
-                        knowledge and skills. Whether it&apos;s diving into the
-                        depths of emerging technologies or solving real-world
-                        problems, I&apos;m always eager to take on new
-                        challenges and grow.
+                        Hello! II&apos;m
+                        <span className={styles.italic}>Venkat Kumar</span>, a
+                        third-year student at Bannari Amman Institute of
+                        Technology. I am passionate about learning and applying
+                        my skills to solve real-world problems. I enjoy
+                        exploring new technologies and continuously improving my
+                        abilities through hands-on experience and challenges.
                     </p>
                 </div>
                 <div className={`${styles.techStack} ${styles.gridItems}`}>
