@@ -45,7 +45,7 @@
     border-radius: 12px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    margin-bottom: -64px;
+    margin-bottom: -48px;
     border: 1px solid var(--color-gray-300);
 }
 
@@ -54,7 +54,7 @@
 }
 
 .innerWrapper:hover .projectImg {
-    margin-bottom: 64px;
+    margin-bottom: 48px;
 }
 
 .filler {
