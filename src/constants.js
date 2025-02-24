@@ -26,7 +26,7 @@ export const PROJECTS = [
         description:
             "Stream is a platfrom to watch youtube videos together with friends. It is a full-stack application developed using MERN stack. It uses socket.io for real-time communication between users.",
         link: "https://github.com/venkatk-git/stream.git",
-        img: "https://github.com/venkatk-git/portfolio/blob/main/public/assests/stream_pic.png?raw=true",
+        img: "https://github.com/venkatk-git/portfolio/blob/main/public/assests/stream.png?raw=true",
         stack: (
             <>
                 <Icon icon="skill-icons:mongodb" />
