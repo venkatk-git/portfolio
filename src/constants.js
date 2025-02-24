@@ -54,7 +54,7 @@ export const PROJECTS = [
         description:
             "Classnotes is a blog website where I post my notes on various topics, including web development, operating systems, and computer networks. It is a full-stack application developed using MERN stack.",
         link: "https://github.com/venkatk-git/classnotes.git",
-        img: "https://github.com/venkatk-git/portfolio/blob/dev/src/docs/campus_management_system.png?raw=true",
+        img: "https://github.com/venkatk-git/portfolio/blob/main/public/assests/classnotes.png?raw=true",
         stack: (
             <>
                 <Icon icon="skill-icons:mongodb" />
