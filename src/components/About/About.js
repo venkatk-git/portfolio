@@ -28,12 +28,12 @@ function About() {
             <div className={styles.gridWrapper} id="about">
                 <div className={`${styles.main} ${styles.gridItems}`}>
                     <Image
-                        src="https://raw.githubusercontent.com/venkatk-git/portfolio/dev/public/assests/profile_placeholder.jpg"
+                        src="https://raw.githubusercontent.com/venkatk-git/portfolio/main/public/assests/image.png?raw=true"
                         className={styles.profileImg}
                         width={500}
                         height={140}
                         alt=""
-                    ></Image>
+                    />
                     <p>
                         Hello! II&apos;m
                         <span className={styles.italic}>Venkat Kumar</span>, a
