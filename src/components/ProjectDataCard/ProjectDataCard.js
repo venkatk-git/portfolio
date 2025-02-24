@@ -7,20 +7,19 @@ import { Icon } from "@iconify/react";
 function ProjectDataCard({ project }) {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.projectImg}>
-                <img src={project.img} />
-            </div>
-            <div className={styles.projectDetails}>
-                <div className={styles.projectInfo}>
-                    <h1 className={styles.title}>{project.title}</h1>
-                    <div className={styles.stack}>{project.stack}</div>
+            <a
+                href={project.link}
+                className={styles.innerWrapper}
+                target="_blank"
+                style={{ "--project-bg": project.bgColor }}
+            >
+                <div className={styles.projectDescription}>
+                    <h1>{project.title}</h1>
+                    <p>{project.description}</p>
                 </div>
-                <div className={styles.projectCodebase}>
-                    <a href={project.link}>
-                        <Icon icon="ant-design:github-filled" />
-                    </a>
-                </div>
-            </div>
+                <div className={styles.filler} />
+                <img src={project.img} className={styles.projectImg} />
+            </a>
         </div>
     );
 }
