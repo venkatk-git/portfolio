@@ -35,7 +35,7 @@ function About() {
                         alt=""
                     />
                     <p>
-                        Hello! I&apos;'m
+                        Hello! I&apos;m
                         <span className={styles.italic}>Venkat Kumar</span>, a
                         third-year student at Bannari Amman Institute of
                         Technology. I am passionate about learning web dev and applying
