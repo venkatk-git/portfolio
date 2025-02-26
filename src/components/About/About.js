@@ -35,13 +35,13 @@ function About() {
                         alt=""
                     />
                     <p>
-                        Hello! II&apos;m
+                        Hello! I&apos;'m
                         <span className={styles.italic}>Venkat Kumar</span>, a
                         third-year student at Bannari Amman Institute of
-                        Technology. I am passionate about learning and applying
+                        Technology. I am passionate about learning web dev and applying
                         my skills to solve real-world problems. I enjoy
-                        exploring new technologies and continuously improving my
-                        abilities through hands-on experience and challenges.
+                        exploring new web technologies and continuously improving my
+                        abilities through hands-on projects.
                     </p>
                 </div>
                 <div className={`${styles.techStack} ${styles.gridItems}`}>
@@ -160,7 +160,7 @@ function About() {
                 <div className={`${styles.objective} ${styles.gridItems}`}>
                     <p>
                         &quot;I aspire to contribute to impactful tech projects,
-                        making a positive difference with my web development
+                        making a positive difference with my web dev
                         expertise. Feel free to explore my portfolio and reach
                         out to connect!&quot;
                     </p>
