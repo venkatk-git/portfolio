@@ -35,9 +35,9 @@ function About() {
                         alt=""
                     />
                     <p>
-                        Hello, I'm{' '}
+                        Hello, I&apos;m{' '}
                         <span className="font-italic">Venkat Kumar</span>
-                        . I'm a final-year student at Bannari Amman Institute of Technology and a
+                        . I&apos;m a final-year student at Bannari Amman Institute of Technology and a
                         software developer at Juspay Technologies. I discovered my passion for web
                         development in college, and now I get to build practical,
                         production-grade applications in my role at Juspay. I enjoy keeping up
@@ -159,9 +159,9 @@ function About() {
                 </div>
                 <div className={`${styles.objective} ${styles.gridItems}`}>
                     <p>
-                    I am applying my web development expertise to build reliable financial
-                    technology at Juspay. My portfolio showcases a selection of my work.
-                    I'm always open to connecting with fellow professionals.
+                        I am applying my web development expertise to build reliable financial
+                        technology at Juspay. My portfolio showcases a selection of my work.
+                        I&apos;m always open to connecting with fellow professionals.
                     </p>
                 </div>
             </div>
