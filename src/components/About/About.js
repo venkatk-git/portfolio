@@ -158,11 +158,10 @@ function About() {
                     </div>
                 </div>
                 <div className={`${styles.objective} ${styles.gridItems}`}>
-                    <p>
-                        I am applying my web development expertise to build reliable financial
-                        technology at Juspay. My portfolio showcases a selection of my work.
+                    <i>
+                        My portfolio showcases a selection of my work.
                         I&apos;m always open to connecting with fellow professionals.
-                    </p>
+                    </i>
                 </div>
             </div>
         </div>
