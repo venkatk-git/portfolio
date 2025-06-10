@@ -35,13 +35,7 @@ function About() {
                         alt=""
                     />
                     <p>
-                        Hello! I&apos;m
-                        <span className={styles.italic}>Venkat Kumar</span>, a
-                        third-year student at Bannari Amman Institute of
-                        Technology. I am passionate about learning web dev and applying
-                        my skills to solve real-world problems. I enjoy
-                        exploring new web technologies and continuously improving my
-                        abilities through hands-on projects.
+                        Hello, I'm Venkat Kumar. I'm a final-year student at Bannari Amman Institute of Technology and a software developer at Juspay Technologies. I discovered my passion for web development in college, and now I get to build practical, production grade applications in my role at Juspay. I enjoy keeping up with new web technologies to improve my work.
                     </p>
                 </div>
                 <div className={`${styles.techStack} ${styles.gridItems}`}>
@@ -159,10 +153,8 @@ function About() {
                 </div>
                 <div className={`${styles.objective} ${styles.gridItems}`}>
                     <p>
-                        &quot;I aspire to contribute to impactful tech projects,
-                        making a positive difference with my web dev
-                        expertise. Feel free to explore my portfolio and reach
-                        out to connect!&quot;
+                        I am applying my web development expertise to build reliable financial technology at Juspay.
+                         My portfolio showcases a selection of my work. I'm always open to connecting with fellow professionals.
                     </p>
                 </div>
             </div>
