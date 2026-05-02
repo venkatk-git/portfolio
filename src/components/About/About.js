@@ -28,7 +28,7 @@ function About() {
             <div className={styles.gridWrapper} id="about">
                 <div className={`${styles.main} ${styles.gridItems}`}>
                     <Image
-                        src="https://raw.githubusercontent.com/venkatk-git/portfolio/main/public/assests/image.png?raw=true"
+                        src="https://media.licdn.com/dms/image/v2/D5603AQFLtGMrOpfmnA/profile-displayphoto-scale_200_200/B56ZlLx8TMH8AY-/0/1757913009052?e=2147483647&v=beta&t=Z6_NzsR3q2LC8UTclXDSdUYlajWHyrjwVo7TRtwMZXo"
                         className={styles.profileImg}
                         width={500}
                         height={140}
